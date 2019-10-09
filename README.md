@@ -1,6 +1,16 @@
 # DonutFrontEnd
 An AngularJS Front-end connecting to David Harris' Back-end.
 
+Immediate TODO's: 
+- create the angular project
+- have a Top Bar that has all the bits required. Doesn't have to be functional yet, just for concept.
+- have dummy product details displayed in card (do this with a model for Products, a service for grabbing the dummy data, a component that calls the service and displays the data in the card format.)
+
+**NOTE:** Did all of the above already and also added a dummy httpClient service so I can test the service calls to a local database before we get the real api details to call from. Just need to commit at home or remake on my home computer if that's not possible.. 
+- must think about how the main page view shows the donut product description in a clean way. 
+- must switch themes to a pastel color for the donutApp as it's black and purple now which doesn't really fit I think.
+- must study different angular material component types for ideas on how to layout things. currently defautling the <mat-card> but I think it could look better.
+
 
 DonutShop Schema description:
 
